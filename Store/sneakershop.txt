@@ -1,0 +1,50 @@
+DataBase
+
+- mst_staff  
+|- code  *int* (PK,AI)  
+|- name *varchar* (15)  
+|- password *varchar* (32)  
+|- birth *date*  
+L hobby *varchar* (32)  
+
+- mst_product  
+|- code *int* (PK,AI)  
+|- name *varchar* (30)  
+|- brand *varchar* (30)  
+|- size *int*  
+|- color *int*  
+|- price *int*  
+L image *varchar*
+
+- dat_member  
+|- code *int* (PK,AI)  
+|- date *timestamp*  
+|- name *varchar* (32)  
+|- password *varchar* (15)  
+|- email *varchar* (50)  
+|- postal1 *varchar* (3)  
+|- postal2 *varchar* (4)  
+|- address *varchar* (50)  
+|- tel *varchar* (13)  
+|- sex *int*  
+L born *int*
+
+- dat_sales_product  
+|- code *int* (PK,AI)  
+|- code_sales *int*  
+|- code_product *int*  
+|- price *int*  
+|- size *int*  
+|- color *int*  
+L quantity *int*  
+
+- dat_sales  
+|- code *int* (PK,AI)  
+|- date *timestamp*  
+|- code_member *int*  
+|- name *varchar* (32)  
+|- email *varchar* (50)  
+|- postal1 *varchar* (3)  
+|- postal2 *varchar* (4)  
+|- address *varchar* (50)  
+L tel *varchar* (13)  

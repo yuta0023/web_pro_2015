@@ -1,0 +1,178 @@
+
+/*全ページ共通*/
+/*===========================================*/
+header{
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+body{
+  margin: 0;
+}
+
+#toplogo{
+  margin-left: 20px
+}
+
+#username{
+  margin-top: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+#secondheader{
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+footer{
+  position: static;
+  bottom: 0px;
+  font-size: 12px;
+  padding: 1px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#footertext{
+  width: 25%;
+  margin: 0 auto;
+}
+
+/*member_login.html*/
+/*===========================================*/
+#loginsection{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin: 0 auto;
+  width: 20%;
+
+}
+
+#loginform{
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+#loginbutton{
+  padding-left: 40px;
+  font-size: 15px;
+}
+
+
+/*member_create_form.html*/
+/*===========================================*/
+#memberform{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+#createtext{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/*shop_form.html, shop_kantan_check*/
+/*===========================================*/
+#customerinfo{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+#customertext{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/*shop_form_done.php*/
+/*===========================================*/
+#deliveryinfo{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+#message{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/*member_login_check.php*/
+/*===========================================*/
+#logininfo{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+#errortext{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/*staff*/
+/*===========================================*/
+#stafflogin{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+#stafftext{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+/*top*/
+/*===========================================*/
+img.photo:hover{
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+#newarrival{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+#brandlist{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/*shop*/
+/*===========================================*/
+#productdetail{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+#productlist{
+
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+#carttext{
+  font-family: Rockwell;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
